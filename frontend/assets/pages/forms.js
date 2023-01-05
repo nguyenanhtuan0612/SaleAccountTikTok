@@ -4,7 +4,7 @@ import BaseCard from '../src/components/baseCard/BaseCard';
 const Forms = () => {
     return (
         <Grid container spacing={0}>
-            <Grid item xs={12} lg={12}>
+            {/* <Grid item xs={12} lg={12}>
                 <BaseCard title="Form Layout">
                     <Stack spacing={3}>
                         <TextField id="name-basic" label="Name" variant="outlined" defaultValue="Nirav Joshi" />
@@ -30,16 +30,16 @@ const Forms = () => {
                         Submit
                     </Button>
                 </BaseCard>
-            </Grid>
+            </Grid> */}
 
             <Grid item xs={12} lg={12}>
-                <BaseCard title="Form Design Type">
+                {/* <BaseCard title="Form Design Type">
                     <Stack spacing={3} direction="row">
                         <TextField id="outlined-basic" label="Outlined" variant="outlined" />
                         <TextField id="filled-basic" label="Filled" variant="filled" />
                         <TextField id="standard-basic" label="Standard" variant="standard" />
                     </Stack>
-                </BaseCard>
+                </BaseCard> */}
             </Grid>
         </Grid>
     );

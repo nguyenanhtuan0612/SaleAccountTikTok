@@ -1,44 +1,29 @@
 const Menuitems = [
     {
-        title: 'Dashbaord',
+        title: 'Chọn nick theo chủ đề',
         icon: 'home',
         href: '/',
     },
     {
-        title: 'Buttons',
+        title: 'Tin tức',
         icon: 'disc',
         href: '/buttons',
     },
     {
-        title: 'Forms',
+        title: 'Hướng dẫn thanh toán',
         icon: 'layout',
         href: '/forms',
     },
     {
-        title: 'Alerts',
+        title: 'Chính sách bảo hành',
         icon: 'info',
         href: '/alerts',
     },
     {
-        title: 'Ratings',
+        title: 'Liên hệ',
         icon: 'star',
         href: '/rating',
-    },
-    {
-        title: 'Images',
-        icon: 'image',
-        href: '/image',
-    },
-    {
-        title: 'Pagination',
-        icon: 'user',
-        href: '/pagination',
-    },
-    {
-        title: 'Tables',
-        icon: 'grid',
-        href: '/table',
-    },
+    }
 ];
 
 export default Menuitems;
